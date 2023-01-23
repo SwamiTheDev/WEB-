@@ -1,0 +1,36 @@
+.navbar{
+    background-color: #6E6E6E;
+} 
+.navbar-brand{
+    color: #BAFF39;
+}
+#link{
+   color:  white;
+}
+#link:hover{
+    /* background-color: black; */
+    color:#BAFF39 ;
+    /* font-weight: bold; */
+    font-size: 20px;
+    
+}
+.image-border{
+  border-radius: 15px !important;
+}
+.bg-info{
+  background-color: rgb(48, 47, 45) !important;
+}
+progress {
+    width: 50%;
+    height: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #f3f3f3;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #4caf50;
+  }
+  

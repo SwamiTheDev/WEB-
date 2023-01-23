@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="/src/js/login.js"></script>
+    <link rel="stylesheet" href="/src/css/login.css">
+
+    <!-- b5 icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Web</title>
+</head>
+<body>
+    <!-- navbar items -->
+    <nav class="navbar navbar-expand-sm ">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <h4>WEB</h4>
+            </div>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="collapsibleNavId">
+              <ul class="navbar-nav me-auto mt-2 mt-lg-0 mx-lg-auto mx-md-auto ">
+                  <!-- Home Page -->
+                  <li class="nav-item  text-center">
+                      <a class="nav-link active " id="link" href="/src/html/home/homepage.html" aria-current="page">Home</a>
+                  </li>
+                    <!--About page -->
+                  <li class="nav-item text-center">
+                      <a class="nav-link " id="link" href="/src/html/about/about.html">About</a>
+                  </li>
+                   <!-- resume Page -->
+                   <li class="nav-item text-center">
+                      <a class="nav-link " id="link" href="/src/html/resume/resume.html" aria-current="page">Resume</a>
+                  </li>
+                 <!-- main Page -->
+                 <li class="nav-item text-center">
+                    <a class="nav-link " id="link" href="/src/html/main/mainPage.html" aria-current="page">Main Page</a>
+                </li>
+                
+                 
+                  <!-- pages link -->
+                  <li class="nav-item  dropdown">
+                      <a class="nav-link dropdown-toggle " id="link" routerLink="pages" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdownId">
+                          <a class="dropdown-item  text-center" style="color:white;background-color:#6E6E6E" id="link" href="/src/html/home/homepage.html">Home</a>
+                          <a class="dropdown-item  text-center" style="color:white;background-color:#6E6E6E" id="link" href="/src/html/about/about.html">About</a>
+                          <a class="dropdown-item  text-center" style="color:white;background-color:#6E6E6E" id="link" href="/src/html/resume/resume.html">Resume</a>
+                          <a class="dropdown-item  text-center" style="color:white;background-color:#6E6E6E" id="link" href="/src/html/main/mainPage.html">Main Page</a>
+                          <a class="dropdown-item  text-center" style="color:white;background-color:#6E6E6E" id="link" href="/src/html/login/login.html">Login Page</a>
+
+                      </div>
+                      
+                  </li>
+              </ul>
+              <!-- login-icon -->
+              <div class="icon d-block">
+                <ul class="nav-item ">
+                    <a class="my nav-link " id="link" href="/src/html/login/login.html"  aria-current="page"><i class="fa fa-user" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+          </div>
+    </div>
+  </nav>
+<!-- login content -->
+
+<div class="container">
+  <div class="signupFrm">
+     <div class="wrapper">
+     <form action="" class="form">
+      <h4 class="text-center mb-3">Login</h4>
+         
+       <div class="inputContainer">
+         <input type="text" class="input" name="email" placeholder="-">
+         <label for="" class="label">Email</label>
+       </div>
+
+       <div class="inputContainer">
+         <input type="text" class="input" placeholder="-">
+         <label for="" class="label">Password</label>
+       </div>
+ 
+      <input type="submit" class="submitBtn" value="Log in" >
+      <p class=" mx-auto mt-2">Don't Have An Account? <a href="/src/html/login/signin/signin.html">Sign In</a></p>
+     </form>
+     </div>
+  </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

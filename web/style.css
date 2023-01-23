@@ -1,0 +1,9 @@
+.dropdown-toggle:hover{
+    cursor: pointer;
+}
+.active{
+    background-color: black;
+}
+.home{
+    margin-left:auto
+}

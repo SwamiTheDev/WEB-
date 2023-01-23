@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #6E6E6E;
+} 
+.navbar-brand{
+    color: #BAFF39;
+}
+#link{
+   color:  white;
+}
+#link:hover{
+    /* background-color: black; */
+    color:#BAFF39 ;
+    /* font-weight: bold; */
+    font-size: 20px;
+    
+}

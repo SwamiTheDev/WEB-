@@ -1,0 +1,73 @@
+
+
+body{
+    background-color: rgb(238, 242, 241);
+}
+.btn{
+  width:fit-content;
+  
+}
+.mainpage{
+  background-color:#fcfcf9;
+  font-family: Georgia, Times, "Times New Roman", serif;;
+  font-weight: 400; 
+  font-size: 19px;
+}
+.navbar{
+  background-color: #6E6E6E;
+} 
+.navbar-brand{
+  color: #BAFF39;
+}
+#link{
+ color:  white;
+}
+#link:hover{
+  /* background-color: black; */
+  color:#BAFF39 ;
+  /* font-weight: bold; */
+  font-size: 20px;
+  
+}
+
+.img-content{
+  cursor: alias;
+  margin: auto;
+  padding: auto;
+}
+.onwards{
+  font-size:15px;
+  font-weight:normal;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.img-fluid{
+  display: block;
+}
+.card{
+  border:none !important;
+  font-family:  Proxima Nova ;
+  color:#00508d;
+  background-color: #fbf3f3 !important;
+}
+.card:hover{
+  cursor: pointer;
+  
+  box-shadow: 5px 3px  20px rgb(63, 61, 61);
+  transform: scale(1.05);
+  transition: 0.5s all ease-in-out;
+  border-radius: 15px;
+}
+@media screen and (max-width:565px){
+.card{
+  margin:2% !important;
+}
+}
+
+
+.col{
+  border: 2px red solid;
+  margin: 10px;
+}

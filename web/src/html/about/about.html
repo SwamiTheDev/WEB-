@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/src/css/aboutpage.css">
+    <script src="/src/js/aboutPage.js"></script>
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate.style link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Web</title>
+</head>
+<body>
+    <marquee behavior="zoom" direction="right">About Page</marquee>
+    <!-- navbar items -->
+    <nav class="navbar navbar-expand-sm animate__animated animate__bounceInDown">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <h4>WEB</h4>
+            </div>
+          
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="collapsibleNavId">
+              <ul class="navbar-nav me-auto mt-2 mt-lg-0 mx-lg-auto mx-md-auto ">
+                  <!-- Home Page -->
+                  <li class="nav-item  text-center">
+                      <a class="nav-link active " id="link" href="/src/html/home/homepage.html" aria-current="page">Home</a>
+                  </li>
+                    <!--About page -->
+                  <li class="nav-item text-center">
+                      <a class="nav-link "id="link"  href="/src/html/about/about.html">About</a>
+                  </li>
+                   <!-- resume Page -->
+                   <li class="nav-item text-center">
+                      <a class="nav-link " id="link" href="/src/html/resume/resume.html" aria-current="page">Resume</a>
+                  </li>
+                 <!-- main Page -->
+                 <li class="nav-item text-center">
+                    <a class="nav-link " id="link"  href="/src/html/main/mainPage.html" aria-current="page">Main Page</a>
+                </li>
+                
+                 
+                  <!-- pages link -->
+                  <li class="nav-item  dropdown">
+                    <a class="nav-link dropdown-toggle " id="link" routerLink="pages" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                        <a class="dropdown-item  text-center" id="link" style="color:white;background-color:#6E6E6E" href="/src/html/home/homepage.html">Home</a>
+                        <a class="dropdown-item  text-center" id="link" style="color:white;background-color:#6E6E6E" href="/src/html/about/about.html">About</a>
+                        <a class="dropdown-item  text-center" id="link" style="color:white;background-color:#6E6E6E" href="/src/html/resume/resume.html">Resume</a>
+                        <a class="dropdown-item  text-center" id="link" style="color:white;background-color:#6E6E6E" href="/src/html/main/mainPage.html">Main Page</a>
+                        <a class="dropdown-item  text-center" id="link" style="color:white;background-color:#6E6E6E" href="/src/html/login/login.html">Login Page</a>
+
+                    </div>
+                    
+                </li>
+              </ul>
+              <!-- login-icon -->
+              <div class="icon d-block">
+                <ul class="nav-item ">
+                    <a class="my nav-link " id="link" href="/src/html/login/login.html"  aria-current="page"><i class="fa fa-user" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+          </div>
+    </div>
+  </nav>
+<!-- content -->
+<div class="about">
+      <div class="container animate__animated animate__zoomIn">
+        <h3 class="text-center p-3">About of this website</h3>
+        <div class="jumbtron m-4 col1 p-4 rounded-3">
+            <h5 class="m-2">This site can divide into five pages.</h5>
+            <ol>
+                <li>Home page</li>
+                <li>About page</li>
+                <li>Resume Page</li>
+                <li>Main Page</li>
+                <li>Login Page</li>
+            </ol>
+        </div>
+        <div class="jumbtron m-4 col2 p-4 rounded-3">
+        
+            <h4>Homepage</h4>
+            <p>This landing page provides a brief description of the fastest bikes in 2022.</p>
+                <a href="/src/html/home/homepage.html"><button class="btn">Read More &rarr;</button></a>
+        </div>
+        <div class="jumbtron m-4 col3 p-4 rounded-3">
+            <h4>AboutPage</h4>
+            <p>The present page refers to the page. This. page is said about the content of that website
+            </p>
+            <a href="/src/html/about/about.html"><button class="btn">Read More &rarr;</button></a>
+        </div>
+        <div class="jumbtron m-4 col4 p-4 rounded-3">
+            <h4>Resume</h4>
+            <p>This summary page is not an entirely created picture with encoding..</p>
+            <a href="/src/html/resume/resume.html"><button class="btn">Read More &rarr;</button></a>
+
+        </div>
+
+        <div class="jumbtron m-4 col5 p-4 rounded-3">
+            <h4>Main Page</h4>
+            <p>On this page you will find a list of the fastest bikes in the world in 2022.</p>
+            <a href="/src/html/main/mainPage.html"><button class="btn">Read More &rarr;</button></a>
+        </div>
+        <div class="jumbtron m-4 col6 p-4 rounded-3">
+            <h4>Login page</h4>
+            <p>This login page merely uses html and css. And inside a page there will be a new registration page. </p>
+            <a href="/src/html/login/login.html"><button class="btn">Read More &rarr;</button></a>
+        </div>
+      </div>
+    </div>
+      <footer class="mt-2 container-fluid bg-info rounded-3">
+        <p class="text-center p-2">Fastest Bikes list &copy; 2022, All Rights Reserved</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
